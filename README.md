@@ -646,7 +646,7 @@ class MyMoneyCaster
   end
 end
 
-JsonApiClient::Schema.register money: MyMoneyCaster
+JsonApiClient::Schema::TypeFactory.register money: MyMoneyCaster
 
 ```
 and finally
